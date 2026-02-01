@@ -1,0 +1,7 @@
+export { default as HomePage } from './HomePage'
+export { default as FeaturesPage } from './FeaturesPage'
+export { default as DoctorsPage } from './DoctorsPage'
+export { default as AIConsultPage } from './AIConsultPage'
+export { default as ContactPage } from './ContactPage'
+export { default as LoginPage } from './LoginPage'
+export { default as RegisterPage } from './RegisterPage'

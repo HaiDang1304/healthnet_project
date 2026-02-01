@@ -1,8 +1,11 @@
-export { default as Header } from './Header'
-export { default as HeroSection } from './HeroSection'
-export { default as PartnersSection } from './PartnersSection'
-export { default as FeaturesSection } from './FeaturesSection'
-export { default as ProcessSection } from './ProcessSection'
-export { default as FAQSection } from './FAQSection'
-export { default as CTASection } from './CTASection'
-export { default as Footer } from './Footer'
+// Layout Components
+export { default as Header } from './layout/Header'
+export { default as Footer } from './layout/Footer'
+
+// Section Components
+export { default as HeroSection } from './sections/HeroSection'
+export { default as FeaturesSection } from './sections/FeaturesSection'
+export { default as ProcessSection } from './sections/ProcessSection'
+export { default as FAQSection } from './sections/FAQSection'
+export { default as CTASection } from './sections/CTASection'
+export { default as PartnersSection } from './sections/PartnersSection'

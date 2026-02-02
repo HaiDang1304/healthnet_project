@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-// Danh sách menu chính
+
 const menu_item = [
   { icon: "grid_view", label: "Tổng quan", path: "/dashboard", active: true },
   { icon: "description", label: "Hồ sơ sức khỏe", path: "/dashboard/records" },
@@ -10,7 +10,7 @@ const menu_item = [
   { icon: "calendar_month", label: "Lịch khám", path: "/dashboard/appointments" },
 ];
 
-const HomeDashboard = () => {
+const SideBar = () => {
   const [activeMenu, setActiveMenu] = useState("Tổng quan");
 
   return (
@@ -69,4 +69,4 @@ const HomeDashboard = () => {
   );
 };
 
-export default HomeDashboard;
+export default SideBar;
